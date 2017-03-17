@@ -23,6 +23,7 @@ body,html {
   margin:1rem;
   font-size: 1rem;
   padding:1rem .5rem;
+  transition:all .1s;
   width:100px;
   text-align: center;
   color:#C0C0C0;
@@ -30,6 +31,11 @@ body,html {
   text-shadow:0 0 5px black;
 }
 
+.playing {
+  transform:scale(0.9);
+  border-color:#ffc600;
+  box-shadow: 0 0 10px #ffc600;
+}
 
 kbd {
   display: block;
